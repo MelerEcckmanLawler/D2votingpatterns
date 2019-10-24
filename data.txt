@@ -1,0 +1,32 @@
+Lynched: { Accused is Mafia:
+   { Mafia: { abstain: '26.4%', guilty: '20.9%', innocent: '19.8%' },
+     Town: { guilty: '64%', abstain: '56.8%', innocent: '69.5%' },
+     Neutral: { guilty: '15.1%', abstain: '16.8%', innocent: '10.7%' },
+     total: { abstain: 2869, innocent: 1554, guilty: 8391 } },
+  Accused is Neutral:
+   { Town: { innocent: '76.2%', guilty: '61.1%', abstain: '60.3%' },
+     Neutral: { guilty: '7.4%', abstain: '8.2%', innocent: '6.2%' },
+     Mafia: { guilty: '31.5%', abstain: '31.5%', innocent: '17.6%' },
+     total: { abstain: 2614, innocent: 1451, guilty: 7324 } },
+  Accused is Town:
+   { Town: { abstain: '54.4%', guilty: '50.1%', innocent: '73.1%' },
+     Mafia: { guilty: '33.9%', abstain: '30.1%', innocent: '16.1%' },
+     Neutral: { innocent: '10.8%', abstain: '15.5%', guilty: '16%' },
+     total: { abstain: 3262, innocent: 2124, guilty: 7695 } } }
+
+
+Innoed: { Accused is Mafia:
+   { Mafia: { innocent: '26%', guilty: '13.6%', abstain: '21%' },
+     Neutral: { abstain: '19.1%', guilty: '14.5%', innocent: '13.6%' },
+     Town: { abstain: '59.9%', innocent: '60.4%', guilty: '71.9%' },
+     total: { abstain: 1288, innocent: 3014, guilty: 1034 } },
+  Accused is Neutral:
+   { Town: { guilty: '62.6%', abstain: '53.9%', innocent: '67.2%' },
+     Mafia: { abstain: '38%', guilty: '29.1%', innocent: '25.8%' },
+     Neutral: { guilty: '8.4%', innocent: '7%', abstain: '8.1%' },
+     total: { abstain: 1041, innocent: 2015, guilty: 705 } },
+  Accused is Town:
+   { Town: { innocent: '60%', abstain: '46.7%', guilty: '47.7%' },
+     Neutral: { innocent: '13.7%', guilty: '19.6%', abstain: '16%' },
+     Mafia: { abstain: '37.3%', innocent: '26.3%', guilty: '32.7%' },
+     total: { abstain: 4097, innocent: 10496, guilty: 2289 } } }
